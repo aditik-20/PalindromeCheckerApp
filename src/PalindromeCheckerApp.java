@@ -1,8 +1,20 @@
+import java.util.*;
 public class PalindromeCheckerApp {
 
     public static void main(String[] args) {
-        System.out.println("Welcome to the Palindrome Checker Management System");
-        System.out.println("Version : 1.0");
-        System.out.println("System initialized successfully.");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Input text : ");
+        String input = sc.nextLine();
+        int i = 0 ;
+        boolean status = true;
+        int j = input.length() -1;
+        for(int k = 0 ; k < input.length()/2 ; k++){
+            if(input.charAt(i)!= input.charAt(j)){
+                status = false;
+            }
+        }
+
+            System.out.println("Is palindrome ? " + status);
+
     }
 }

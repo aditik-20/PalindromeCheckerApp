@@ -36,17 +36,16 @@ public class PalindromeCheckerApp {
         Node slow = head;
         Node fast = head;
 
-        // Find middle
+
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
 
-        // Reverse second half
+
         Node secondHalf = reverse(slow);
         Node firstHalf = head;
 
-        // Compare both halves
         while (secondHalf != null) {
             if (firstHalf.data != secondHalf.data)
                 return false;

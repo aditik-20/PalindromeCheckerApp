@@ -5,22 +5,19 @@ public class PalindromeCheckerApp {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input text : ");
         String input = sc.nextLine();
-       Stack<Character> st = new Stack<>();
-       Queue<Character> q = new LinkedList<>();
-       for(char c : input.toCharArray()){
-           q.add(c);
-           st.push(c);
-       }
+        Deque<Character> dq = new ArrayDeque<>();
+        boolean palindrome = true;
 
-       boolean palindrome = true;
-       while(q.size()>0){
-           if(q.poll() != st.pop()){
-               palindrome = false;
-               break;
-           }
-       }
-        System.out.println("Is Palindrom? :" +palindrome);
-
+        for(char c : input.toCharArray()){
+            dq.addLast(c);
+        }
+        while(dq.size() > 1){
+            char first = dq.removeFirst();
+            char second = dq.removeLast();
+            if(first != second) palindrome = false;
+            break;
+        }
+        System.out.println("Is Palindrome? :" + palindrome);
     }
 }
 

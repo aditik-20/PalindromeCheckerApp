@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a16da113-e2ed-457a-b618-5e9c6410e2e7" name="Changes" comment="" />
+    <list default="true" id="a16da113-e2ed-457a-b618-5e9c6410e2e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/PalindromeCheckerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PalindromeCheckerApp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +33,12 @@
     &quot;assignee&quot;: &quot;pg3566-oss&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aditik-20/PalindromeCheckerApp.git",
-    "accountId": "59c04751-ab61-4f04-93f3-925bdb659f5e"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aditik-20/PalindromeCheckerApp.git&quot;,
+    &quot;accountId&quot;: &quot;59c04751-ab61-4f04-93f3-925bdb659f5e&quot;
   }
-}]]></component>
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -61,7 +63,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "UC11Object-OrientedPalindromeService",
+    "git-widget-placeholder": "UC13-Performance-Comparison",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/akkri/Downloads/aa/PalindromeCheckerApp",
@@ -117,7 +119,7 @@
       <workItem from="1771558169922" duration="389000" />
       <workItem from="1771559355677" duration="2240000" />
       <workItem from="1772160373883" duration="547000" />
-      <workItem from="1772889040597" duration="362000" />
+      <workItem from="1772889040597" duration="758000" />
     </task>
     <servers />
   </component>
